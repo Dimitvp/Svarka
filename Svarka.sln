@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svarka.AppHost", "Svarka.AppHost\Svarka.AppHost.csproj", "{0A6EC145-DE3C-404F-9D0C-42C3F88802A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svarka.ServiceDefaults", "Svarka.ServiceDefaults\Svarka.ServiceDefaults.csproj", "{A75504C8-016A-4704-6CC3-E86943F63A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svarka.ApiService", "Svarka.ApiService\Svarka.ApiService.csproj", "{9AD28D23-C980-C184-FDF6-039DB6DB14B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svarka.Web", "Svarka.Web\Svarka.Web.csproj", "{237E05E5-C9C5-6E72-D561-3FA46E91F8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svarka.Tests", "Svarka.Tests\Svarka.Tests.csproj", "{05FBA5DB-06DF-8BFF-33D5-2D6143B6577F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6EC145-DE3C-404F-9D0C-42C3F88802A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6EC145-DE3C-404F-9D0C-42C3F88802A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6EC145-DE3C-404F-9D0C-42C3F88802A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6EC145-DE3C-404F-9D0C-42C3F88802A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75504C8-016A-4704-6CC3-E86943F63A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75504C8-016A-4704-6CC3-E86943F63A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75504C8-016A-4704-6CC3-E86943F63A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75504C8-016A-4704-6CC3-E86943F63A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD28D23-C980-C184-FDF6-039DB6DB14B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD28D23-C980-C184-FDF6-039DB6DB14B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD28D23-C980-C184-FDF6-039DB6DB14B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD28D23-C980-C184-FDF6-039DB6DB14B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237E05E5-C9C5-6E72-D561-3FA46E91F8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237E05E5-C9C5-6E72-D561-3FA46E91F8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237E05E5-C9C5-6E72-D561-3FA46E91F8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237E05E5-C9C5-6E72-D561-3FA46E91F8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FBA5DB-06DF-8BFF-33D5-2D6143B6577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FBA5DB-06DF-8BFF-33D5-2D6143B6577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FBA5DB-06DF-8BFF-33D5-2D6143B6577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FBA5DB-06DF-8BFF-33D5-2D6143B6577F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {183D174A-08FE-4B1B-8E1B-DDD6258DD6A9}
+	EndGlobalSection
+EndGlobal
